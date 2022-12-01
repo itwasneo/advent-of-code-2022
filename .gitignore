@@ -1,1 +1,2 @@
-day_1_1/rust-solution/target/
+day_*/rust-solution/target/
+day_*/rust-solution/Cargo.lock
