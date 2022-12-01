@@ -29,10 +29,8 @@ public class Day1Problem1 {
 				if (line.length() == 0) {
 					if (current_elves_calories > max) {
 						max = current_elves_calories;
-						current_elves_calories = 0;
-					} else {
-						current_elves_calories = 0;
 					}
+					current_elves_calories = 0;
 				} else {
 					current_elves_calories += Integer.parseInt(line);
 				}

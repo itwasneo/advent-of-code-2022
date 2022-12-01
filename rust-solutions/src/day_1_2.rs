@@ -70,7 +70,7 @@ fn day_1_2() -> i32 {
             }
         }
     }
-
+    top_3.items.iter().for_each(|x| println!("{:?}", x));
     top_3.items.iter().sum()
 }
 

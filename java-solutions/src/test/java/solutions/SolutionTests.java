@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+
 public class SolutionTests {
 
 	private static final Logger logger = LoggerFactory.getLogger(SolutionTests.class);
@@ -11,5 +13,10 @@ public class SolutionTests {
 	@Test
 	public void day1problem1() {
 		logger.info("day_1_1_solution: {}", Day1Problem1.solve("../input/input_1_1.txt"));
+	}
+
+	@Test
+	public void day1problem2() {
+		logger.info("day_1_2_solution: {}", Day1Problem2.solve("../input/input_1_1.txt"));
 	}
 }
