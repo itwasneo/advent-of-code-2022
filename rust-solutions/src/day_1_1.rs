@@ -15,6 +15,8 @@ fn day_1_1() -> i32 {
                     if current_elves_calories > max {
                         max = current_elves_calories;
                         current_elves_calories = 0;
+                    } else {
+                        current_elves_calories = 0;
                     }
                 } else {
                     current_elves_calories += food_cal.parse::<i32>().unwrap();

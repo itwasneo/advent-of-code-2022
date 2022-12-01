@@ -10,6 +10,8 @@ def day_1_1() -> int:
                 if current_elves_calories > max:
                     max = current_elves_calories
                     current_elves_calories = 0
+                else:
+                    current_elves_calories = 0
             else:
                 current_elves_calories += int(line)
     print("day_1_solution: %d" % max)
