@@ -29,7 +29,7 @@ fn day_1_1() -> i32 {
 }
 
 #[allow(dead_code)]
-fn read_lines<P>(filename: P) -> Result<Lines<BufReader<File>>>
+pub fn read_lines<P>(filename: P) -> Result<Lines<BufReader<File>>>
 where
     P: AsRef<Path>,
 {
