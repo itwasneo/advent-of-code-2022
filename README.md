@@ -12,3 +12,9 @@ cargo test tests -- --nocapture
 ```shell
 python3 test.py
 ```
+
+## Java solutions
+
+```shell
+mvn test
+```

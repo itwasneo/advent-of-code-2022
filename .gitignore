@@ -2,3 +2,7 @@ rust-solutions/target/
 rust-solutions/Cargo.lock
 
 python-solutions/solutions/__pycache__/
+
+java-solutions/.idea/
+java-solutions/*.iml
+java-solutions/target/
