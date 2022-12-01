@@ -3,9 +3,10 @@ use std::i32::MIN;
 use std::io::{BufRead, BufReader, Lines, Result};
 use std::path::Path;
 
-fn main() {
+#[allow(dead_code)]
+fn day_1_1() -> i32 {
     let mut max = MIN;
-    if let Ok(lines) = read_lines("../input.txt") {
+    if let Ok(lines) = read_lines("input_1_1.txt") {
         let mut current_elves_calories = 0;
 
         for line in lines {
@@ -21,13 +22,25 @@ fn main() {
             }
         }
     }
-    println!("{}", max);
+
+    max
 }
 
+#[allow(dead_code)]
 fn read_lines<P>(filename: P) -> Result<Lines<BufReader<File>>>
 where
     P: AsRef<Path>,
 {
     let file = File::open(filename).ok().unwrap();
     Ok(BufReader::new(file).lines())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::day_1_1;
+
+    #[test]
+    fn day_1_1_test() {
+        println!("day_1_1_solution: {:?}", day_1_1());
+    }
 }
