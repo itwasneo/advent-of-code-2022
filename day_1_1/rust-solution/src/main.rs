@@ -7,6 +7,7 @@ fn main() {
     let mut max = MIN;
     if let Ok(lines) = read_lines("../input.txt") {
         let mut current_elves_calories = 0;
+
         for line in lines {
             if let Ok(food_cal) = line {
                 if food_cal.is_empty() {
