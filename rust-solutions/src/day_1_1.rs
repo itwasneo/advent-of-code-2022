@@ -6,7 +6,7 @@ use std::path::Path;
 #[allow(dead_code)]
 fn day_1_1() -> i32 {
     let mut max = MIN;
-    if let Ok(lines) = read_lines("input_1_1.txt") {
+    if let Ok(lines) = read_lines("../input/input_1_1.txt") {
         let mut current_elves_calories = 0;
 
         for line in lines {

@@ -1,2 +1,4 @@
 rust-solutions/target/
 rust-solutions/Cargo.lock
+
+python-solutions/solutions/__pycache__/
