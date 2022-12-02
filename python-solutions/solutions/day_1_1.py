@@ -14,5 +14,5 @@ def day_1_1() -> int:
                     current_elves_calories = 0
             else:
                 current_elves_calories += int(line)
-    print("day_1_solution: %d" % max)
+    print("day_1_1_solution: %d" % max)
     return max

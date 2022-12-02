@@ -56,5 +56,5 @@ def day_1_2() -> int:
             else:
                 current_elves_calories += int(line)
 
-    print(top_3)
+    print("day_1_2_solution: %d" % max)
     return sum(top_3)
