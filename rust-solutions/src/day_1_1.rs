@@ -43,6 +43,8 @@ mod tests {
 
     #[test]
     fn day_1_1_test() {
-        println!("day_1_1_solution: {:?}", day_1_1());
+        let result = day_1_1();
+        println!("day_1_1_solution: {:?}", result);
+        assert_eq!(result, 69883);
     }
 }

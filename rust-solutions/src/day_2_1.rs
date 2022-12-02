@@ -1,8 +1,6 @@
 use crate::day_1_1::read_lines;
 use std::collections::HashMap;
-// WIN  DRAW  LOSS
-// ROCK PAPER SCISSOR
-// MAPS
+
 // A -----> ROCK
 // B -----> PAPER
 // C -----> SCISSORS
@@ -55,7 +53,9 @@ mod tests {
     use super::day_2_1;
 
     #[test]
-    fn day_2_1test() {
-        println!("day_2_1_solution: {:?}", day_2_1());
+    fn day_2_1_test() {
+        let result = day_2_1();
+        println!("day_2_1_solution: {:?}", result);
+        assert_eq!(result, 12156);
     }
 }

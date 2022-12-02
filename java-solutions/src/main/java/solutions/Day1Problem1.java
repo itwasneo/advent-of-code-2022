@@ -12,8 +12,6 @@ import java.nio.file.Paths;
 
 public class Day1Problem1 {
 
-	private static final Logger logger = LoggerFactory.getLogger(Day1Problem1.class);
-
 	public static int solve(String filePath) {
 		try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(
