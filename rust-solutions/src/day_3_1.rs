@@ -21,7 +21,7 @@ fn day_3_1() -> u32 {
 }
 
 #[allow(dead_code)]
-fn get_priority(c: char) -> u32 {
+pub fn get_priority(c: char) -> u32 {
     if c.is_ascii_lowercase() {
         return (c as u32) - 96;
     }
@@ -37,5 +37,6 @@ mod tests {
     fn day_3_1_test() {
         let result = day_3_1();
         println!("day_3_1_solution: {}", result);
+        assert_eq!(result, 8153);
     }
 }
