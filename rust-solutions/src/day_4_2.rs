@@ -3,7 +3,7 @@ use std::io::BufRead;
 use crate::day_3_2::get_reader;
 
 #[allow(dead_code)]
-fn day_4_1() -> u32 {
+fn day_4_2() -> u32 {
     let mut result: u32 = 0;
     if let Ok(mut reader) = get_reader("../input/input_4_1.txt") {
         loop {
@@ -58,7 +58,7 @@ fn day_4_1() -> u32 {
                 .map(|c| c - 48)
                 .fold(0, |ans, i| ans * 10 + i);
 
-            if f_s >= s_s && f_e <= s_e || s_s >= f_s && s_e <= f_e {
+            if s_e >= f_s && s_s <= f_e || f_e >= s_s && s_e >= f_s {
                 result += 1;
             }
         }
@@ -69,12 +69,12 @@ fn day_4_1() -> u32 {
 
 #[cfg(test)]
 mod tests {
-    use super::day_4_1;
+    use super::day_4_2;
 
     #[test]
-    fn day_4_1_test() {
-        let result = day_4_1();
-        println!("day_4_1_solution: {}", result);
-        assert_eq!(477, result);
+    fn day_4_2_test() {
+        let result = day_4_2();
+        println!("day_4_2_solution: {}", result);
+        assert_eq!(830, result);
     }
 }
