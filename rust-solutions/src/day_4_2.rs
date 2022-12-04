@@ -58,7 +58,7 @@ fn day_4_2() -> u32 {
                 .map(|c| c - 48)
                 .fold(0, |ans, i| ans * 10 + i);
 
-            if s_e >= f_s && s_s <= f_e || f_e >= s_s && s_e >= f_s {
+            if s_e >= f_s && s_s <= f_e {
                 result += 1;
             }
         }

@@ -37,4 +37,18 @@ public class SolutionTests {
 		logger.info("day_2_2_solution: {}", result);
 		assertEquals(10835, result);
 	}
+
+	@Test
+	public void day4problem1() {
+		int result = Day4Problem1.solve("../input/input_4_1.txt");
+		logger.info("day_4_1_solution: {}", result);
+		assertEquals(477, result);
+	}
+
+	@Test
+	public void day4problem2() {
+		int result = Day4Problem2.solve("../input/input_4_1.txt");
+		logger.info("day_4_2_solution: {}", result);
+		assertEquals(830, result);
+	}
 }
