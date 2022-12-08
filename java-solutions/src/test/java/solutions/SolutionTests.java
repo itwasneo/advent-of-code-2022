@@ -51,4 +51,14 @@ public class SolutionTests {
 		logger.info("day_4_2_solution: {}", result);
 		assertEquals(830, result);
 	}
+
+	@Test
+	public void day5problem5and2() {
+		String result1 = Day5Problem1And2.solve("../input/input_5_1.txt", 1);
+		String result2 = Day5Problem1And2.solve("../input/input_5_1.txt", 2);
+		logger.info("day_5_1_solution: {}", result1);
+		logger.info("day_5_2_solution: {}", result2);
+		assertEquals("VJSFHWGFT", result1);
+		assertEquals("LCTQFBVZV", result2);
+	}
 }
