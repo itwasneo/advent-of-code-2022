@@ -27,4 +27,5 @@ mvn test
 
 ## TODO
 * [ ] java and python solutions for day 3 problems are missing.
+* [ ] java and rust solutions form Day 6, Day 7, Day 8.
 * [ ] pyhon solution for day 1 problem 2 is not correct.
