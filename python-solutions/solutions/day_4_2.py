@@ -1,10 +1,8 @@
 def day_4_2() -> int:
     result = 0
     with open("../input/input_4_1.txt") as fp:
-        while True:
-            line = fp.readline().strip()
-            if not line:
-                break
+        lines = fp.readlines()
+        for line in lines:
             groups = line.split(",")
             first = groups[0].split("-")
             second = groups[1].split("-")

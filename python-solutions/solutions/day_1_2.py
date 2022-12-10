@@ -8,10 +8,8 @@ def day_1_2() -> int:
     current_elves_calories = 0
 
     with open("../input/input_1_1.txt") as fp:
-        while True:
-            line = fp.readline()
-            if not line:
-                break
+        lines = fp.readlines()
+        for line in lines:
             if line == '\n' or len(line) == 0:
                 current_len = len(top_3)
                 # queue is full

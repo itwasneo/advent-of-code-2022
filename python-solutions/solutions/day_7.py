@@ -56,11 +56,8 @@ def day_7(part_number: int) -> int:
         current_path = ""
         directories = dict()
         files = set()
-        while True:
-            line = fp.readline()
-            if not line:
-                break
-
+        lines = fp.readlines()
+        for line in lines:
             tokens = line.split(" ")
 
             # Removin LF at the end of each line

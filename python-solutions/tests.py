@@ -9,6 +9,7 @@ from solutions.day_5_1_2 import *
 from solutions.day_6_1 import *
 from solutions.day_7 import *
 from solutions.day_8_1 import *
+from solutions.day_9 import *
 
 
 class TestSolutions(unittest.TestCase):
@@ -45,6 +46,12 @@ class TestSolutions(unittest.TestCase):
     def test_day_8_1(self):
         self.assertEqual(day_8_1(1), 1703, "Expected 1703")
         self.assertEqual(day_8_1(2), 496650, "Expected 496650")
+
+    def test_day_9_1(self):
+        self.assertEqual(day_9_1(), 6209, "Expected 6209")
+
+    def test_day_9_2(self):
+        self.assertEqual(day_9_2(), 2460, "Expect 2460")
 
 
 if __name__ == '__main__':
