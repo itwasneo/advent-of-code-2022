@@ -4,7 +4,7 @@ from typing import Tuple
 
 printer = pprint.PrettyPrinter(width=sys.maxsize)
 
-pixels = [['.'] * 40 for x in range(6)]
+pixels = [[' '] * 40 for x in range(6)]
 
 
 def day_10_2() -> str:
@@ -24,6 +24,7 @@ def day_10_2() -> str:
                 register += int(tokens[1].strip())
                 print_pixels(cycle, register)
 
+        print("day_10_2_solution: \n")
         for x in pixels:
             printer.pprint(''.join(x))
 

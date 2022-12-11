@@ -18,7 +18,7 @@ def day_10_1() -> int:
                 register += int(tokens[1].strip())
                 score += get_cycle_score(cycle, register)
 
-    print(score)
+    print(f"day_10_1_solution: {score}")
 
     return 60
 
