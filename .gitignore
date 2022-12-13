@@ -6,3 +6,5 @@ python-solutions/solutions/__pycache__/
 java-solutions/.idea/
 java-solutions/*.iml
 java-solutions/target/
+
+/python-solutions/.vscode/
