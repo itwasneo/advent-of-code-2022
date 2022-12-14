@@ -7,7 +7,6 @@ for i, l in enumerate(data):
     for j, c in enumerate(l):
         if c == 'S':
             SOURCE = (i, j)
-            print(f"found source {SOURCE}")
             data[i] = data[i].replace('S', 'a')
         if c == 'E':
             TARGET = (i, j)
