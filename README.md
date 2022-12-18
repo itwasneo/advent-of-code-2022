@@ -27,8 +27,8 @@ mvn test
 ```
 
 ## TODO
-* [ ] java and python solutions for day 3 problems are missing.
-* [ ] java and rust solutions for
+* [ ] Missing Java and Rust solutions
+  * [ ] Day 3
   * [ ] Day 6
   * [ ] Day 7
   * [ ] Day 8
