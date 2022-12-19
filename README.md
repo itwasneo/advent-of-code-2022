@@ -7,7 +7,7 @@ Starting from day 15, my solutions started to get clumsier and clumsier. The pro
 to cut myself out, from this years advent of code. I won't try to commit daily solutions, but I'm planning to get back to it now then. These were overall quality
 problems.
 
-![15_10_2022](https://github.com/itwasneo/advent-of-code-2022/tree/master/screenshots/aoc_19_12_2022.png)
+![15_10_2022](screenshots/aoc_19_12_2022.png)
 
 ## Rust solutions
 
