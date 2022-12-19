@@ -3,8 +3,8 @@ This is my first year attending AOC. At first I was planning committing solution
 I'm only submitting solutions in python, I will try to add solutions for java and rust when I find a chance.
 
 ## Disclaimer
-Starting from day 15, my solutions started to get clumsier and clumsier. The problems were also going towards either DFS or BFS solutions each day, so I decided
-to cut myself out, from this years advent of code. I won't try to commit daily solutions, but I'm planning to get back to it now and then. These were overall quality
+Starting from day 15, my solutions started to get clumsier and clumsier. The problems were also going towards either DFS or BFS solutions each and everyday, so I decided
+to cut myself out from this year's advent of code. I won't try to commit daily solutions, but I'm planning to get back to it now and then. These were overall quality
 problems.
 
 ![15_10_2022](screenshots/aoc_19_12_2022.png)
