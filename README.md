@@ -32,25 +32,3 @@ Inside **java-solutions** directory run
 ```shell
 mvn test
 ```
-
-## TODO
-* [ ] Missing Java and Rust solutions
-  * [ ] Day 3
-  * [ ] Day 6
-  * [ ] Day 7
-  * [ ] Day 8
-  * [ ] Day 9
-  * [ ] Day 10
-  * [ ] Day 11
-  * [ ] Day 12
-  * [ ] Day 13
-  * [ ] Day 14
-  * [ ] Day 15
-  * [ ] Day 16
-  * [ ] Day 17
-  * [ ] Day 18
-* [ ] Python solution for day 1 problem 2 is not correct.
-* [ ] Python solution for day 15 is very inefficient.
-* [ ] Python solution for day 16 part 2 needs some rethinking
-* [ ] Python solutonn for day 17 is missing. Tetris implementation.
-* [ ] Python solution for day 18 part 2 is missing. Flood fill algorithm.
