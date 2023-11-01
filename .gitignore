@@ -1,10 +1,13 @@
-rust-solutions/target/
-rust-solutions/Cargo.lock
+archive/rust-solutions/target/
+archive/rust-solutions/Cargo.lock
 
-python-solutions/solutions/__pycache__/
+archive/python-solutions/solutions/__pycache__/
 
-java-solutions/.idea/
-java-solutions/*.iml
-java-solutions/target/
+archive/java-solutions/.idea/
+archive/java-solutions/*.iml
+archive/java-solutions/target/
 
-/python-solutions/.vscode/
+archive//python-solutions/.vscode/
+
+target
+Cargo.lock
