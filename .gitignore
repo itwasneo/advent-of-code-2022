@@ -9,5 +9,7 @@ archive/java-solutions/target/
 
 archive//python-solutions/.vscode/
 
+scripts
+
 target
 Cargo.lock
